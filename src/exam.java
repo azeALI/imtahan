@@ -3,13 +3,8 @@
 // (powered by FernFlower decompiler)
 //
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStream;
-import java.net.URISyntaxException;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Random;
@@ -19,97 +14,102 @@ public class exam {
   public static int num;
 
   public static void showSelectedQuestions(Sual[] ALL) throws IOException {
-    int start;
-    int end;
+    int start = 1;
+    int end = num;
+    int count = 0;
     int xal = 0;
+    char mode = '0';
     Sual[] shuffled;
     Scanner s2 = new Scanner(System.in);
-    System.out.println("Mod : 1 - 30 sual, 2 - 50 sual, 3 - araliq");
-    int mode = s2.nextInt();
-    if (mode == 1) {
-      shuffled = randomiseArray(ALL, 0, num - 1);
-      for (int i = 0; i < 30; i++) {
-        Sual s = shuffled[i];
-        s.number = i + 1;
-        s.correctAnswers();
-        s.show();
-        System.out.print("Your Answer : ");
+    System.out.println("Sual Sayı - " + num);
+    System.out.println("Mod : 1 - 30 sual, 2 - 50 sual, 3 - aralıq");
 
-        int cavab;
-        for (cavab = s2.nextInt(); cavab < 1 || cavab > 5; cavab = s2.nextInt()) {
-          System.out.print("ENTER A VALID ANSWER : ");
-        }
-
-        if (cavab == s.correctAnswer) {
-          ++xal;
-          System.out.println("Correct -- points : " + xal);
-        } else {
-          System.out.println("Wrong -- points : " + xal);
-          String var10001 = s.answers[s.correctAnswer - 1];
-          System.out.println("Correct answer was : " + var10001 + "\n");
+    for (String md = s2.nextLine().strip();; md = s2.nextLine().strip()) {
+      if (md.length() == 1) {
+        Character m = md.charAt(0);
+        if (m == '1' | m == '2' | m == '3') {
+          mode = m;
+          break;
         }
       }
-    } else if (mode == 2) {
-      shuffled = randomiseArray(ALL, 0, num - 1);
-      for (int i = 0; i < 50; i++) {
-        Sual s = shuffled[i];
-        s.number = i + 1;
-        s.correctAnswers();
-        s.show();
-        System.out.print("Your Answer : ");
+      System.out.println("DÜZGÜN MOD SEÇIN!!!" + "\n");
+      System.out.println("Sual Sayı - " + num);
+      System.out.println("Mod : 1 - 30 sual, 2 - 50 sual, 3 - aralıq");
+    }
+    if (mode == '1') {
+      count = 30;
+    } else if (mode == '2') {
+      count = 50;
+    } else if (mode == '3') {
+      System.out.println(" BaşlanĞıc və sonu daxil edin");
+      out: for (String[] s = s2.nextLine().strip().split("\\s+");; s = s2.nextLine().strip().split("\\s+")) {
+        if (s.length == 2) {
 
-        int cavab;
-        for (cavab = s2.nextInt(); cavab < 1 || cavab > 5; cavab = s2.nextInt()) {
-          System.out.print("ENTER A VALID ANSWER : ");
+          for (Character c : s[0].toCharArray()) {
+            if (Character.isLetter(c)) {
+              System.out.println("DÜZGÜN ARALIQ DAXIL EDIN!!!");
+              continue out;
+            }
+          }
+          for (Character c : s[1].toCharArray()) {
+            if (Character.isLetter(c)) {
+              System.out.println("DÜZGÜN ARALIQ DAXIL EDIN!!!");
+              continue out;
+            }
+          }
+          start = Integer.parseInt(s[0]);
+          end = Integer.parseInt(s[1]);
+          if (start >= end) {
+            System.out.println("DÜZGÜN ARALIQ DAXIL EDIN!!!");
+            continue out;
+          }
+          count = end - start + 1;
+          break out;
         }
-
-        if (cavab == s.correctAnswer) {
-          ++xal;
-          System.out.println("Correct -- points : " + xal);
-        } else {
-          System.out.println("Wrong -- points : " + xal);
-          String var10001 = s.answers[s.correctAnswer - 1];
-          System.out.println("Correct answer was : " + var10001 + "\n");
-        }
-      }
-
-    } else {
-      System.out.println(" Baslangic ve sonu daxil edin");
-      start = s2.nextInt();
-      end = s2.nextInt();
-      xal = 0;
-      shuffled = randomiseArray(ALL, start - 1, end - 1);
-
-      for (int i = 0; i < end - start + 1; ++i) {
-        Sual s = shuffled[i];
-        s.number = i + 1;
-        s.correctAnswers();
-        s.show();
-        System.out.print("Your Answer : ");
-
-        int cavab;
-        for (cavab = s2.nextInt(); cavab < 1 || cavab > 5; cavab = s2.nextInt()) {
-          System.out.print("ENTER A VALID ANSWER : ");
-        }
-
-        if (cavab == s.correctAnswer) {
-          ++xal;
-          System.out.println("Correct -- points : " + xal);
-        } else {
-          System.out.println("Wrong -- points : " + xal);
-          String var10001 = s.answers[s.correctAnswer - 1];
-          System.out.println("Correct answer was : " + var10001 + "\n");
-        }
+        System.out.println("DÜZGÜN ARALIQ DAXIL EDIN!!!");
       }
     }
+    System.out.println();
+    System.out.println("-------------------------------");
+    shuffled = randomiseArray(ALL, start - 1, end - 1);
+    for (int i = 0; i < count; ++i) {
+      Sual s = shuffled[i];
+      s.number = i + 1;
+      s.correctAnswers();
+      s.show();
+      System.out.print("CAVABINIZ : ");
+      int cavab = 0;
 
+      for (String c = s2.nextLine().strip();; c = s2.nextLine().strip()) {
+        if (c.length() == 1) {
+          if (c.equals("1") || c.equals("2") || c.equals("3") || c.equals("3") || c.equals("4") || c.equals("5")) {
+            cavab = Integer.parseInt(c);
+            break;
+          }
+        }
+        System.out.println("CAVABI DÜZGÜN DAXİL EDİN!!!");
+      }
+
+      if (cavab == s.correctAnswer) {
+        ++xal;
+        System.out.println("\u001B[32m" + "DOĞRU" + "\u001B[0m");
+        System.out.println("XAL : " + xal);
+      } else {
+        System.out.println("\u001B[31m" + "YANLIŞ" + "\u001B[0m");
+        System.out.println("XAL : " + xal);
+        String correct = s.answers[s.correctAnswer - 1];
+        System.out.println("DOĞRU CAVAB : " + correct + "\n");
+      }
+      System.out.println("-------------------------------");
+      System.out.println();
+    }
   }
 
   public static Sual[] randomiseArray(Sual[] arr, int start, int end) throws IOException {
     Random r = new Random();
     int size = end - start + 1;
     Sual[] newArray = new Sual[size];
-    ArrayList<Integer> randomHolder = new ArrayList();
+    ArrayList<Integer> randomHolder = new ArrayList<>();
     int v = 0;
     int nextRandomNumber = r.nextInt(start, end);
 
@@ -124,7 +124,7 @@ public class exam {
     }
 
     for (int i = 0; i < size; ++i) {
-      newArray[i] = arr[(Integer) randomHolder.get(i)];
+      newArray[i] = arr[randomHolder.get(i)];
     }
 
     return newArray;
@@ -146,6 +146,7 @@ public class exam {
       allQuestions[i] = new Sual(head, ans, i);
 
     }
+    sc.close();
 
     return allQuestions;
   }

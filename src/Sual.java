@@ -31,14 +31,14 @@ public class Sual {
         System.out.println(this.question + "\n");
 
         for(int i = 0; i < 5; ++i) {
-            System.out.println(this.answers[i]);
+            System.out.println(this.answers[i]+"\n");
         }
 
     }
 
     public void mixAnswers() {
         Random r = new Random();
-        ArrayList<Integer> randomHolder = new ArrayList();
+        ArrayList<Integer> randomHolder = new ArrayList<>();
         int e = 0;
         int nextRandimNumber = r.nextInt(5);
 
@@ -65,11 +65,14 @@ public class Sual {
         for(char c = this.question.charAt(0); Character.isDigit(c); c = this.question.charAt(0)) {
             this.question = this.question.substring(1);
         }
+        if (this.question.charAt(0)=='.') {
+          this.question = this.question.substring(1);
+        }
 
-        this.question = this.number + " " + this.question.strip();
+        this.question = this.number + ". " + this.question.strip();
 
         for(int i = 0; i < 5; ++i) {
-            this.answers[i] = i + 1 + ". " + this.answers[i].substring(1).strip();
+            this.answers[i] = i + 1 + ") " + this.answers[i].substring(1).strip();
         }
 
     }
