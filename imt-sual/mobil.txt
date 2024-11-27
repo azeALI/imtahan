@@ -1,0 +1,901 @@
+150
+1 iOS tətbiqlərində istifadə olunan verilənləri saxlama üçün hansı proqramlaşdırma texnologiyası istifadə edilir?
+•Microsoft Access
+•Microsoft Excel
+•MySQL
+•PostgreSQL
+√ SQLite
+2 Android tətbiqlərində SQL verilənləri bazaları üçün istifadə olunan hansı modul istifadə olunur?
+•MySQLManager
+√ SQLiteOpenHelper
+•PostgreSQLHandler
+•SQLiteOpenH
+•SQLConnector
+3 iOS tətbiqlərində interfeysi tərtib etmək üçün istifadə olunan proqram nədir?
+•Visual Studio Interface Creator
+√Xcode Interface Builder
+•Swift UI Designer
+•Android Studio Designer
+•Visual Studio Designer
+4 Android tətbiqlərində istifadə olunan XML-də elementləri hansı etiketlərlə tərtib etmək mümkündür?
+√<TextView> və <ImageView>
+•<button> və <table>
+•<label> və <picture>
+•<text> və <image>
+•<TextView> və <View>
+5 Android tətbiqlərinin interfeysini tərtib etmək üçün hansı faylı istifadə etmək lazımdır?
+•.xlsx
+•.json
+•.html
+•.css
+√.xml
+6 IOS platforması üçün istifadə olunan tətbiq mağazası hansıdır?
+•Amazon Appstore
+•Microsoft Store
+•Google Play Store
+√App Store
+•Quora
+7 Android platforması üçün istifadə olunan tətbiq mağazası hansıdır?
+•Microsoft Store
+•Quora
+•App Store
+•Amazon Appstore
+√Google Play Store
+8 IOS tətbiqləri üçün hansı proqramlaşdırma dili istifadə olunur?
+•PHP
+•Python
+√Swift
+•C#
+•C++
+9 Android tətbiqləri üçün hansı proqramlaşdırma dili istifadə olunur?
+•PHP
+•C#
+√Java
+•C++
+•R
+10 İOS əməliyyat sistemli mobil cihazlar üçün yazılan proqram təminatları hansı mühitdən istifadə edərək yazılır?
+•İDLE
+•OneCompiler
+•Pycharm
+√Visual Code
+•Rstudio
+11 Android əməliyyat sistemli mobil cihazlar üçün yazılan proqram təminatları hansı mühitdən istifadə edərək yazılır?
+•Visual Studio
+√Android Studio
+•İDLE
+•Pycharm
+•Notepad++
+12 Mobil tətbiqlər üçün hansı proqramlaşdırma dilləri istifadə olunur?
+•R
+√Java və Swift
+•PHP
+•Python
+•C++
+13 Kodun təhlükəsizliyini təmin etmək üçün ən yaxşı təcrübələrə aid edilə bilməyən təcrübə hansıdır?
+•Doğrulama və parolun idarə edilməsi
+√Steqanoqrafik Təcrübələr
+•Rabitə Təhlükəsizliyi
+•Verilənlərin daxil edilməsinin yoxlanılması
+•Kriptoqrafik Təcrübələr
+14 Proqram təminatının inkişaf prosesi mərhələlərinin ardıcıllığını düzgün əks etdirən variantı seçin: 1.Təhlil; 2.Hazırlıq; 3.Dizayn; 4.Tətbiq; 5.Test;
+•1,3,5,2,4
+•1,2,5,3,4
+√1,3,2,5,4
+•1,5,3,2,4
+•1,2,3,4,5
+15 "Jailbreak" və "Root" layihələri hansı riskləri gətirir?
+•Məlumat itkisi
+•Qanun pozuntusu
+√Güvənlik təhlükəsi
+•Telefonun məhdudlaşdırılması
+•Təhlükəli proqramların yüklənməsi
+16 Qoşulduğu sensor texnologiyasına görə "Piezoelectric Sensor" hansı növ sensordur?
+•Akustik sensor
+•Görüntü sensoru
+•Optik sensor
+•Temperatur sensoru
+√Təzyiq sensoru
+17 "Infrared (IR)" sensorları hansı tip məlumatları ölçür?
+•Rəngləri
+•Səsləri
+•İşıqları
+•Tam ədədi qiymətləri
+√Temperaturu
+18 Analog sensorlar hansı növ məlumatları ölçür?
+•Fiziki təzyiqləri
+•İşıq dərəcələrini
+√Tam ədədi qiymətləri
+•Səs dərəcələrini
+•Natamam ədədi qiymətləri
+19 Sensorlar hansı məqsədlər üçün istifadə olunur?
+•Təhlükəsizlik sistemləri üçün
+•Yeni texnologiyaların inkişafı üçün
+•Texniki cihazların istifadəsi üçün
+•Məlumatların yaddaşda saxlanılması
+√Mühit və proseslərin ölçülməsi və nəzarəti üçün
+20 Mobil təhlükəsizlik üzrə ən yaxşı təcrübələri seçin: 1) Aydın siyasət və prosesləri qurulması 2) Parolun qorunması 3) Biometrik göstəricilərdən istifadə edilməsi
+•2.30
+•1.30
+•1.20
+√1,2,3
+•3
+21 Tətbiq təhlükəsizliyi xüsusiyyətlərini seçin: 1) Autentifikasiya 2) Avtorizasiya 3) Şifrələmə 4) Giriş və proqram təhlükəsizliyi testi
+•1.20
+•1,2,4
+•3.40
+•1,2,3
+√1,2,3,4
+22 Secure in Design - prinsipi hansı variantda düzgün qeyd edilmişdir?
+•Proqram müəllifləri ilə müntəzəm olaraq əlaqə saxlanması, təhlükəsizlik üzrə yeni buraxılış, zəmanət, tövsiyə və məsləhətlərin əldə olunması
+•Susmaya görə təhlükəsizlik rejiminin qoşulması
+•Təhlükəsiz proqram təminatının hazırlanması prosesinin təşkili
+•Proqram təminatının ilkin qəbulu (installyasiyası) və cari icrasının təhlükəsiz təşkili
+√Təhlükəsiz lahiyəhələndirmə prinsiplərinin tətbiqi, yəni mümkün hücumların nəzərə alınması və onların aradan qaldırılması üsulların reallaşdırılması
+23 Secure Development Lifecycle (SDL) (Təhlükəsiz İnkişaf Həyat Dövrü (SDL)) prinsipi dedikdə nə nəzərdə tutulur?
+•Proqram müəllifləri ilə müntəzəm olaraq əlaqə saxlanması, təhlükəsizlik üzrə yeni buraxılış, zəmanət, tövsiyə və məsləhətlərin əldə olunması
+•Təhlükəsiz lahiyəhələndirmə prinsiplərinin tətbiqi, yəni mümkün hücumların nəzərə alınması və onların aradan qaldırılması üsulların reallaşdırılması
+√Təhlükəsiz proqram təminatının hazırlanması prosesinin təşkili
+•Proqram təminatının ilkin qəbulu (installyasiyası) və cari icrasının təhlükəsiz təşkili
+•Susmaya görə təhlükəsizlik rejiminin qoşulması
+24 Secure by Default - prinsipi aşağıdakı variantlardan hansında düzgün qeyd edilmişdir?
+•Proqram müəllifləri ilə müntəzəm olaraq əlaqə saxlanması, təhlükəsizlik üzrə yeni buraxılış, zəmanət, tövsiyə və məsləhətlərin əldə olunması
+•Proqram təminatının ilkin qəbulu (installyasiyası) və cari icrasının təhlükəsiz təşkili
+√Susmaya görə təhlükəsizlik rejiminin qoşulması
+•Təhlükəsiz lahiyəhələndirmə prinsiplərinin tətbiqi, yəni mümkün hücumların nəzərə alınması və onların aradan qaldırılması üsulların reallaşdırılması
+•Təhlükəsiz proqram təminatının hazırlanması prosesinin təşkili
+25 Secure in Deployment (Yerləşdirmədə təhlükəsizlik) nədir?
+•Təhlükəsiz lahiyəhələndirmə prinsiplərinin tətbiqi, yəni mümkün hücumların nəzərə alınması və onların aradan qaldırılması üsulların reallaşdırılması
+•Susmaya görə təhlükəsizlik rejiminin qoşulması
+√Proqram təminatının ilkin qəbulu (installyasiyası) və cari icrasının təhlükəsiz təşkili
+•Təhlükəsiz proqram təminatının hazırlanması prosesinin təşkili
+•Proqram müəllifləri ilə müntəzəm olaraq əlaqə saxlanması, təhlükəsizlik üzrə yeni buraxılış, zəmanət, tövsiyə və məsləhətlərin əldə olunması
+26 Aşağıdakılardan hansı təhlükəsiz kodlaşdırma üçün istifadə edilən alətlərdəndir?
+•Visual Studio
+•Auty
+√Arachni
+•Visual Code
+•İDLE
+27 Aşağıdakılardan hansı təhlükəsiz kodlaşdırma üçün istifadə edilən alətlərdəndir?
+•İDLE
+√Code Warrior
+•Visual Code
+•Visual Studio
+•Google Autentificator
+28 "APK" formatı hansı proqramlaşdırma dili ilə yaradıla bilər?
+√Java
+•R
+•Python
+•HTML
+•C++
+29 "OTA" (Over-the-Air) yenilənmələr hansı mobil əməliyyat sistemlərində mövcuddur?
+•Gmos
+•Symbian
+•BlackBerry
+•Tizen
+√İOS
+30 Hansı əməliyyat sistemi "Xcode" mühitində tətbiqlərin yaradılmasına icazə verir?
+•Gmos
+√İOS
+•Windows
+•BlackBerry
+•Android
+31 "NFC" (Nəzarət nöqtəsinin kommunikasiyası) hansı mobil əməliyyat sistemində mövcuddur?
+•BlackBerry
+•Symbian
+√Android
+•Windows
+•Gmos
+32 "Multitasking" hansı mobil əməliyyat sistemlərində mövcuddur?
+•BlackBerry
+•Symbian
+•Gmos
+√Android
+•Bada
+33 "APK" formatı hansı mobil əməliyyat sistemi üçün istifadə olunur?
+√Android
+•Symbian
+•BlackBerry
+•Windows
+•iOS
+34 Android əməliyyat sistemi hansı şirkət tərəfindən hazırlanıb?
+•Samsung
+•Sony
+√Google
+•Microsoft
+•Apple
+35 Mobil tətbiq hazırlamağın kod yazmadan üstünlükləri nələrdir?
+•Əlavə tətbiq keyfiyyəti
+•Əlavə proqramlaşdırma tələblərinin olmaması
+•Mobil tətbiqləri istənilən platformaya köçürmək
+•Zəif kompüterlərdə də tətbiqin işləməsi
+√Sürətli tətbiq hazırlamaq
+36 Kod yazmadan mobil tətbiq hazırlamağın əsas üsulu hansıdır?
+√App Inventor
+•Xamarin
+•Java proqramlaşdırma dili
+•Swift proqramlaşdırma dili
+•Eclipse IDE
+37 Mobil tətbiq hazırlamaq üçün kod yazmadan tətbiq inkişaf etdirməyə imkan verən platforma hansıdır?
+•Xcode
+√React Native
+•Android Studio
+•Visual Studio
+•IntelliJ IDEA
+38 Kotlin dilində Android tətbiqlərində cari mövsümü göstərmək üçün istifadə olunan kitabxana hansıdır?
+√Kotlin Date and Time Library (kdatetime)
+•Kotlin Weather Extension (kweather)
+•Kotlin Calendar Kit (kcal)
+•Android Seasons Library
+•AndroidX Time Tools
+39 Kotlin dilində Android tətbiqlərində təhlükəsizlik funksiyalarını əlavə etmək və istifadə etmək üçün hansı kitabxana istifadə edilir?
+•Kotlin Security Library (ksecurity)
+•Kotlin Crypto Extension (kcrypto)
+√AndroidX Security Kit
+•Kotlin Security API (ksecurityapi)
+•Android Secure Coding Library
+40 Kotlin dilində Android tətbiqlərindəki loqotipi və mətni göstərmək üçün hansı kitabxana istifadə edilir?
+•Kotlin Painter (kpainter)
+√AndroidX Vector Graphics
+•Kotlin Graphics Library (kgraphics)
+•AndroidX Canvas Kit
+•Kotlin SVG (ksvg)
+41 Kotlin dilində Android tətbiqlərinin UI interfeyslərini sürətli şəkildə yaratmaq və tənzimləmək üçün hansı kitabxana istifadə olunur?
+•Kotlin GUI Kit (kguikit)
+•Kotlin UI Extension (kuie)
+•Kotlin Android UI (kandroidui)
+•Kotlin UI Designer (kuidesign)
+√AndroidX UI Design
+42 Android tətbiqlərində animasiyalar və animasiya effektləri yaratmaq üçün hansı Kotlin kitabxanası istifadə edilir?
+•Android Animator Set
+√Kotlin Animator API (kanimator)
+•Kotlin Animation Kit (kanimation)
+•Kotlin Animation Extension (ktae)
+•AndroidX Animation Library
+43 "Glide" adlı Kotlin kitabxanası hansı məqsədlər üçün istifadə olunur?
+•Təhlükəsizlik üçün
+√Şəkilləri göstərmək və yükləmək
+•Rəngləri dəyişdirmək
+•Rəngləri tənzimləmək
+•Şəbəkə əlaqələri
+44 Kotlin dilində Android tətbiqlərindəki dəqiq sensor məlumatlarını əldə etmək üçün hansı kitabxana istifadə edilir?
+•Kotlin Location Services (klocation)
+√AndroidX Sensor Kit
+•Kotlin Sensor Extension (ktsensor)
+•Kotlin Sensor Library (ksensor)
+•Kotlin SensorManager
+45 Kotlin dilində mobil tətbiqlər üçün HTTP sorğuları göndərmək üçün ən çox istifadə olunan kitabxana hansıdır?
+•Kotlin HTTP (khttp)
+•Kotlin JSON (kjson)
+•Kotlin REST Client (krest)
+√Kotlin Asynchronous HTTP Client (khttp)
+•Kotlin Network (knetwork)
+46 Kotlin dilində Android tətbiqlərinin səs və video ilə əlaqələndirilməsi üçün istifadə olunan kitabxana hansıdır?
+•"Kotlin MediaCodec"
+√"Kotlin Media Framework"
+•"Kotlin Multimedia Extensions"
+•"Kotlin Audio/Video Kit"
+•"Kotlin Media Player"
+47 "Room" adlı Kotlin kitabxanası hansı əməliyyatı həyata keçirir?
+•Asinxron kod əməliyyatı
+•Şəbəkə əlaqələri
+√Lokal verilən bazası əməliyyatları
+•HTTP sorğuları
+•Verilənlərin şifrələnməsi
+48 Kotlin dilində Android tətbiqlərinin interfeys tərkibini yaratmaq və idarə etmək üçün hansı kitabxana istifadə olunur?
+•kotlinx.coroutines
+√Kotlin-Android-Extensions
+•Android Studio
+•JavaFX
+•AndroidX
+49 Kotlin proqramlaşdırmada "Android Jetpack" nədir?
+•Kotlin standart kitabxanası
+•Kotlin dilində inkişaf etdirilmiş bir IDE
+√Android tətbiqlərini inkişaf etdirmək üçün vəzifə təminatı
+•Kotlin proqramlaşdırma dilinin köməkçi kitabxanası
+•Kotlin Script
+50 Mobil tətbiqlərin unit testləri üçün hansı Java kitabxanası istifadə edilir?
+•javax.crypto
+•java.security
+√JUnit
+•android.os
+•java.util.logging
+51 Android tətbiqlərində istifadəçi məlumatlarını saxlamaq üçün hansı Java kitabxanası istifadə olunur?
+•java.rmi
+√android.provider
+•java.sql
+•java.util
+•javax.crypto
+52 Android tətbiqlərində istifadə edilən təhlükəsizlik üçün hansı Java kitabxanası istifadə olunur?
+•android.security
+•java.rmi
+√java.security
+•javax.xml
+•java.util.logging
+53 QR kodları yaratmaq və oxumaq üçün istifadə edilən Java kitabxanası hansıdır?
+•java.io
+•java.util
+•android.hardware
+•javax.crypto
+√ZXing
+54 Mobil tətbiqlər üçün istifadə edilən verilən bazalarını idarə etmək üçün hansı Java kitabxanası istifadə olunur?
+•java.util
+•java.net
+√java.sql
+•javax.crypto
+•android.database
+55 XML fayllarını prosessinq etmək və düzəltmək üçün istifadə olunan kitabxana hansıdır?
+•android.widget
+•java.util
+•java.io
+•java.text
+√javax.xml
+56 Mobil tətbiqetmələr üçün hansı Java kitabxanası şəbəkə əlaqələri üçün istifadə olunur?
+•android.location
+•java.sql
+•java.io
+•javax.crypto
+√java.net
+57 Android tətbiqlərində istifadə edilən interfeys elementlərini inkişaf etdirmək üçün hansı Java kitabxanası istifadə olunur?
+√AWT (Abstract Window Toolkit)
+•JUnit
+•JavaFX
+•AndroidX
+•Swing
+58 Android proqramlaşdırma üçün istifadə edilən standart Java platforması dedikdə nə nəzərdə tutulur?
+√JDK (Java Development Kit)
+•JVM (Java Virtual Machine)
+•JRE (Java Runtime Environment)
+•SDK (Software Development Kit)
+•API (Application Programming Interface)
+59 Android tətbiqlərində tətbiqatın arxa fonunu tənzimləmək üçün hansı XML etiketini istifadə etmək lazımdır?
+√<RelativeLayout>
+•<Button>
+•<LinearLayout>
+•<EditText>
+•<ImageView>
+60 Android tətbiqlərində mətni düzgün şəkildə sıralamaq üçün hansı XML etiketini istifadə etməliyik?
+•<EditText>
+•<Sort>
+•<TextView>
+•<Button>
+√<ScrollView>
+61 Android tətbiqlərində mətnin mərkəzləşdirilməsi üçün hansı XML etiketini istifadə etmək lazımdır?
+•<Center>
+•<TextView>
+•<EditText>
+•<Button>
+√<LinearLayout>
+62 Android tətbiqlərində bir siyahı (list) tərtib etmək üçün hansı XML etiketini istifadə etməliyik?
+√<ListView>
+•<Button>
+•<TextView>
+•<List>
+•<ImageView>
+63 Android tətbiqlərində şəkilin bir hissəsini (crop) kəsmək üçün hansı XML etiketini istifadə edirik?
+•<ImageView>
+•<CutImage>
+√<CropImage>
+•<Cut>
+•<CropView>
+64 Android tətbiqlərində şəkil (image) görüntüləmək üçün hansı etiketi istifadə etmək lazımdır?
+•<Button>
+•<Image>
+•<EditText>
+√<ImageView>
+•<TextView>
+65 Android tətbiqlərində düyməni (button) tərtib etmək üçün hansı XML etiketini istifadə etməliyik?
+•<TextView>
+√<Button>
+•<btn>
+•<EditText>
+•<ImageView>
+66 Android tətbiqlərində cihazın mövcud məkanını (location) tapmaq üçün istifadə olunan xidmət hansıdır?
+•NFC (Near Field Communication)
+√GPS (Global Positioning System)
+•VPN (Virtual Private Network)
+•Wi-Fi
+•Bluetooth
+67 iOS tətbiq kodunun saxlanılması üçün istifadə olunan fayl hansıdır?
+•.xlsx
+•.code
+•.app
+•.data
+√.plist
+68 Android və iOS tətbiqlərində istifadə olunan hansı tətbiq inteqrasiya (integration) metodu üçün istifadə olunur?
+•GPS (Global Positioning System)
+•DVD (Digital Versatile Disc)
+•SMS (Short Message Service)
+•MMS (Multimedia Messaging Service)
+√API (Application Programming Interface)
+69 Android tətbiqlərində fəaliyyət (activity) nədir?
+•Tətbiq kodlarının yazıldığı sahə
+•Tətbiq qovluğu
+•Cihazın hansı model olduğunu təyin edən bir sensor
+•İnterfeys elementlərinin tənzimlənməsi üçün istifadə olunan bir proqram
+√İstifadəçinin etibarlı məlumat əldə etmək üçün cihazın ekranında görəcəyi məzmun
+70 Storyboard nədir və Xcode-də hansı məqsədlə istifadə olunur?
+•Proqramlaşdırma dili
+•Emulator
+•Oyun yaratmaq üçün alət
+•Kod bloku
+√İnterfeys dizaynı tərtib etmək üçün alət
+71 Xcode-da iOS tətbiqini nəzərdən keçirmək üçün hansı emulatoru istifadə etmək olar?
+•Windows Emulator
+√iOS Simulator
+•Linux Emulator
+•Android Emulator
+•Mac Emulator
+72 App Inventor-un işləmə prinsipi nədir?
+•QR kodlar yaratmaq
+•İnternetdə reklam göstərmək
+•Elektron poçt göndərmək
+√Bloklar ilə tərtib etmək
+•Dörd min məhsul satmaq
+73 App Inventor-dan istifadə etmək üçün hansı texniki bacarıqlara ehtiyac var?
+√İstifadəçi interfeys dizayn bacarığı
+•Verilənlərin təhlili bacarığı
+•Mətn işləmə bacarığı
+•Üstün proqramlaşdırma bacarığı
+•Robot inşa etmə bacarığı
+74 App Inventor-da "for" dövrünü necə tərtib etmək olar?
+√Bloklar menyusunun altından "for loop" simgəsini seçməklə
+•Java proqramlaşdırma dili ilə dövr tərtib etməklə
+•Bloklar menyusunun "Math" hissəsindən "for" blokunu seçməklə
+•Bu funksiya App Inventor-da mövcud deyil
+•App Inventor-da dövr istifadə etmək mümkün deyil
+75 App Inventor-da kodunuzun səhvlərini tapmaq üçün hansı alətlərdən istifadə edə bilərsiniz?
+•App Inventor səhvləri avtomatik tapan alətə sahib deyil
+•Xcode Interface Builder
+√Brauzer vasitəsilə
+•AndroidX Vector Graphics
+•Thunkable
+76 App Inventor-da "if" şərt operatoru necə tərtib edilir?
+•"Sahə" elementini sürüşdürməklə
+•"Tənzimlə" bloku əlavə etməklə
+•"Sənədlər" bölməsində "if" blokunu seçməklə
+•Blockly proqramlaşdırma dilində "if" ifadəsini yazmaqla
+√"Təşkilat" bloklarından "Şərt" blokunu seçməklə
+77 App Inventor-da əlavə səs faylı yükləmək üçün hansı komponenti istifadə etmək lazımdır?
+•"XML" komponenti
+•"NaN" komponenti
+√"Multimedia" komponenti
+•Əlavə səs faylı yükləmək mümkün deyil
+•"Oyun" komponenti
+78 App Inventor-da "Web" komponenti ilə hansı əməliyyatı həyata keçirmək olar?
+•Audio yükləmək
+•Şəkil yükləmək
+•Bloklar yaratmaq
+•Blokları tərtib etmək
+√Tətbiqi brauzerdə açmaq
+79 Kod yazmadan mobil tətbiq yaradarkən interfeys dizaynını necə təyin edə bilərsiniz?
+•Xcode Interface Builder
+√Qrafiq redaktoru ilə
+•XML faylı ilə
+•Python dilində kod yazaraq
+•Riyazi funksiyalarla
+80 App Inventor hansı platformalara mobil tətbiq yaradır?
+√Yalnız Android
+•Windows və Mac
+•Yalnız iOS
+•Android və iOS
+•Hər hansı bir mobil platform
+81 Serializasiya nədir?
+•Java obyektini yenidən yaratmaq üçün bayt axınının istifadə edildiyi əks prosesdir
+•obyektin vəziyyətinin bayt axınına çevrilməməsi mexanizmidir
+•obyektin vəziyyətinin bit axınına çevrilməməsi mexanizmidir
+√obyektin vəziyyətinin bayt axınına çevrilməsi mexanizmidir
+•obyektin vəziyyətinin bit axınına çevrilməsi mexanizmidir
+82 ObjectOutputStream sinfində obyekti sıradan çıxarmaq üçün hansı metod istifadə edilir?
+•java.io.Serializable
+•writeObject()
+√readObject()
+•java.Serializable
+•deleteObject()
+83 ObjectOutputStream sinfində Obyektin seriallaşdırılması üçün hansı metod istifadə edilir?
+•java.io.Serializable
+√writeObject()
+•deleteObject()
+•java.Serializable
+•readObject()
+84 Java obyektini serializasiya etmək üçün istifadə olunan interfeys aşağıdakılardan hansıdır?
+•java.Serializa
+•java.Serializable
+•C.io.Serializable
+•io.Serializable
+√java.io.Serializable
+85 "İstifadəçi autentifikasiya edildikdən və proqramdan istifadə etdikdən sonra digər təhlükəsizlik tədbirləri həssas məlumatların kibercinayətkar tərəfindən görünməsindən və hətta istifadəsindən qoruya bilər" bu fikir hansı tətbiq təhlükəsizliyi xüsusiyyətinə aiddir?
+•Giriş və təhlükəsizlik testi
+•Autentifikasiya
+√Şifrələmə
+•Avtorizasiya
+•Qeydiyyat
+86 Aşağıdakılardan hansı tətbiq təhlükəsizliyinin xüsusiyyətlərindən hesab edilir?
+•Susmaya görə təhlükəsizlik rejiminin qoşulması prosesi
+√Şifrələmə prosesi
+•Proqram müəllifləri ilə müntəzəm olaraq əlaqə saxlanması, təhlükəsizlik üzrə yeni buraxılış, zəmanət, tövsiyə və məsləhətlərin əldə olunması
+•Proqram təminatının ilkin qəbulu (installyasiyası) və cari icrasının təhlükəsiz təşkili
+•Təhlükəsiz proqram təminatının hazırlanması prosesinin təşkili
+87 Tətbiq təhlükəsizliyi xüsusiyyətlərini seçin: 1) Autentifikasiya 2) Avtorizasiya 3) Şifrələmə 4) Giriş və proqram təhlükəsizliyi testi
+•1.20
+•1,2,3
+•1,2,4
+√1,2,3,4
+•3.40
+88 Proqram təminatının təhlükəsizliyini qiymətləndirmək və nəzərdən keçirmək nə vaxt daha düzgün addım hesab olunur?
+•Hazırlıq mərhələsində
+•Test mərhələsində
+•Təhlil mərhələsində
+•Dizayn mərhələsində
+√Tətbiqin inkişafının bütün mərhələlərində
+89 Aşağıdakılardan hansı hazırlıq mərhələsinin addımlarından hesab olunur?
+•Sınaq ediləcək formaların müəyyən edilməsi
+•Layihəni işlətməklə sınaqdan keçirmək
+•Proqram təminatı sisteminin layihələndirilməsi
+•Formanı işlətməklə sınaqdan keçirmək
+√Layihə formalarının müəyyən edilməsi və layihəyə əlavə edilməsi
+90 Aşağıdakılardan hansı təhlil mərhələsinin addımlarında həyata keçirilir?
+•Proqram təminatı sisteminin hazırlanacağı proqramlaşdırma dilinin və verilənlər bazasının seçilməsi
+•Formanı işlətməklə sınaqdan keçirmək
+•Layihəni işlətməklə sınaqdan keçirmək
+√Proqram təminatı sisteminin layihələndirilməsi
+•Sınaq ediləcək formaların müəyyən edilməsi
+91 Ionic framework-də "Cordova" nədir və nə üçün istifadə olunur?
+•Bir elan platforması
+•JavaScript framework-i
+√Wearable technology
+•Native (yerli) iOS proqramlaşdırma dili
+•Xüsusi tətbiq dizaynı
+92 React Native ilə yaradılmış mobil tətbiqlər hansı platformalarda işləyir?
+•Yalnız iOS
+•Linux və Windows
+•Windows və Mac
+√Android və iOS
+•Yalnız Android
+93 Kotlin Multiplatform (KMP) framework-i hansı proqramlaşdırma dilləri ilə uyğundur?
+•Java və C++
+•Yalnız Kotlin
+√Kotlin, Java, və JavaScript
+•Python və Ruby
+•Swift və Objective-C
+94 NativeScript hansı məqsədlə istifadə olunur?
+•Kod bloku hazırlamaq
+•Oyun yaratmaq üçün
+•Təhlükəsizlik üçün
+•İnternet saytları hazırlamaq
+√Mobil tətbiqlər yaratmaq üçün
+95 Ionic framework-i ilə hansı dillərdə tətbiqlər hazırlamaq olar?
+•C# və Python
+•Java və Swift
+•Ruby və PHP
+√HTML, CSS, və JavaScript
+•Yalnız JavaScript
+96 Flutter framework-i hansı şirkət tərəfindən inkişaf edilmişdir?
+√Google
+•Microsoft
+•Facebook
+•Apple
+•Adobe
+97 React Native nədir?
+•Mobil tətbiqlər yaratmaq üçün C++ framework-udur.
+√Mobil tətbiqlər yaratmaq üçün JavaScript framework-udur.
+•Oyun yaratmaq üçün platform.
+•Mobil tətbiqlər yaratmaq üçün R framework-udur.
+•Mətn redaktoru.
+98 Xcode-də "Interface Builder" hansı məqsədlə istifadə olunur?
+•Təhlükəsizlik üçün
+•Oyun yaratmaq
+•İnternet saytlarını tərtib etmək
+√Mobil tətbiq interfeysi dizayn etmək
+•Kod bloku hazırlamaq
+99 Xcode-də hansı alət "Asset Catalog" (sənəd kataloqu) tərtib etmək üçün istifadə olunur?
+•Xcode Simulator
+•Storyboard
+•Visual Studio
+√Interface Builder
+•Instruments
+100 Xcode-də hansı alət "Code Signing" (kod imzalama) üçün istifadə olunur?
+•Visual Studio
+•Xcode Simulator
+•Instruments
+•Storyboard
+√Xcode Organizer
+101 Xcode-də hansı alət "Auto Layout" və "Constraints" təyin etmək üçün istifadə olunur?
+•Storyboard
+•Visual Studio
+•Instruments
+•Xcode Simulator
+√Interface Builder
+102 Xcode-da hangi alət "Debugger" (səhv axtarış) və "Profiling" (profil təhlili) üçün istifadə olunur?
+•Storyboard
+•Interface Builder
+•Xcode Simulator
+•Visual Studio
+√Instruments
+103 Xcode hansı proqramlaşdırma dili ilə uyğun gəlir?
+√Objective-C
+•C++
+•C#
+•Java
+•Ruby
+104 Xcode hansı proqramlaşdırma dili ilə uyğun gəlir?
+√Swift
+•Ruby
+•C++
+•C#
+•Java
+105 Xcode nədir?
+•Fotoşəkil redaktoru
+•Video redaktoru
+•Mətn redaktoru
+•Proqramlaşdırma dili
+√Mobil tətbiq inkişaf platforması
+106 İoT-nin gələcəkdəki inkişaf istiqamətlərindən biri hansıdır?
+•İnternet istifadəsinin azaldılması
+•Daha çox telefonun istifadəsi
+√Ətraf mühitə daha böyük nəzarət
+•Məlumatlarınızın daha böyük mənbələrdə saxlanılması
+•Məlumatlarınızın daha kiçik mənbələrdə saxlanılması
+107 Phaser.js hansı dil ilə yazılmışdır və hansı platformaları dəstəkləyir?
+√JavaScript, web və mobil platformalar
+•Python, Android və iOS
+•C++, Windows və macOS
+•Java, Windows və macOS
+•Java, PlayStation və Xbox
+108 Cocos2d-x framework-ü hansı dillərdə əlçatan edir?
+•Python və Ruby
+•R
+•JavaScript və TypeScript
+•Java
+√C++ və Lua
+109 Unity-nin əsas dilləri hansılardır?
+√C# və JavaScript
+•R
+•CSS və JavaScript
+•Java
+•Python və Ruby
+110 Hansı framework, mobil oyunların multiplatformaya çıxarılmasını dəstəkləyir?
+•Xcode
+•HTML
+•Linux
+√Unity
+•Pikachu
+111 IoT layihələrində təhlükəsizlik nə üçün önəmlidir?
+•Yalnız şifrələrin düzgün təyini üçün önəmlidir
+•Təhlükəsizliyin önəmi yoxdur, çünki IoT cihazlarına heç bir zaman hakerlər tərəfindən hücum edilmir.
+•Təhlükəsizlik, şəbəkəyə cihazların daxil olmamasını və şəbəkəyə girişin tənzimlənməsini təmin etmək üçün önəmlidir.
+•Yalnız cihazlara virus yoluxmasının qarşısının alınması üçün önəmlidir
+√Təhlükəsizlik, şəbəkəyə cihazların daxil olmasını və şəbəkəyə girişin tənzimlənməsini təmin etmək üçün önəmlidir.
+112 IoT nədir?
+•İnternet of Things, cihazların internetə bağlı olmadığı bir konseptdir.
+•IoT yüksək səviyyəli proqramlaşdırma dilidir
+√İnternet of Things, cihazların internetə bağlı olduğu bir konseptdir.
+•IoT aşağı səviyyəli proqramlaşdırma dilidir
+•IoT, telefonunuzun ekranı kontrastını təyin etmək üçün lazım olan proqram təminatıdır
+113 Serializasiya vasitəsilə tərtibatçı hansı hərəkətləri yerinə yetirə bilər: 1) Veb xidmətindən istifadə edərək obyektin uzaq proqrama göndərilməsi 2) Bir obyektin bir domendən digərinə ötürülməsi 3) Obyektin JSON və ya XML sətri kimi firewall vasitəsilə ötürülməsi 4) Tətbiqlər arasında təhlükəsizliyin və ya istifadəçiyə məxsus məlumatın saxlanılması
+•1,2,3
+√1,2,3,4
+•1.30
+•3.40
+•2,3,4
+114 Serializasiya vasitəsilə tərtibatçı hansı hərəkətləri yerinə yetirə bilər: 1) Veb xidmətindən istifadə edərək obyektin uzaq proqrama göndərilməsi 2) Bir obyektin bir domendən digərinə ötürülməsi 3) Obyektin JSON və ya XML sətri kimi firewall vasitəsilə ötürülməsi
+•Yalnız 3
+•1.30
+•2,3,
+√1,2,3,
+•1.20
+115 "Diqqət qurulan proqram təminatına və dizayn, kodlaşdırma və ya quraşdırma inteqrasiyasında hansı zəifliklərin və zəifliklərin təqdim olunacağına yönəldilir" bu fikir hansı təhdid modelləşdirilməsinə yanaşma üsulunu izah edir?
+•Passiv mərkəzli
+•Hücumçu mərkəzli
+•Sistem mərkəzli
+√Proqram mərkəzli
+•Aktiv mərkəzli
+116 Xcode-də hansı alət "Code Signing" (kod imzalama) üçün istifadə olunur?
+•Instruments
+•Storyboard
+•Visual Studio
+√Xcode Organizer
+•Xcode Simulator
+117 "Təhdid, veb serveri müvəqqəti olaraq əlçatmaz və ya yararsız etmək kimi etibarlı istifadəçilərə girişi rədd etmək məqsədi daşıyır." - bu hansı STRİDE növüdür?
+•Information Disclosure (İnformasiyanın Açıqlanması)
+•Repudiation (İnkar və ya Rədd edilmə)
+•Spoofing (Saxtakarlıq)
+√Denial of Service (Xidmətin rədd edilməsi)
+•Tampering (Saxtakarlıq)
+118 "Təhdid hərəkəti qadağan edilmiş əməliyyatları izləmək imkanı olmayan bir sistemdə qeyri-qanuni əməliyyatlar həyata keçirmək məqsədi daşıyırdı" - bu hansı STRİDE növüdür?
+•Tampering (Saxtakarlıq)
+•Denial of Service (Xidmətin rədd edilməsi)
+√Repudiation (İnkar və ya Rədd edilmə)
+•Information Disclosure (İnformasiyanın Açıqlanması)
+•Spoofing (Saxtakarlıq)
+119 Tampering (Saxtakarlıq) anlayışı necə izah olunur?
+•Veb serveri müvəqqəti olaraq əlçatmaz və ya yararsız etmək kimi etibarlı istifadəçilərə girişi rədd etmək məqsədi
+•İstifadəçi adı və parol kimi başqa istifadəçinin etimadnaməsinə qeyri-qanuni daxil olmaq və istifadə etmək məqsədi daşıyan təhdid hərəkəti
+•Giriş icazəsi olmayan faylı oxumaq və ya ötürülən məlumatları oxumaq üçün təhdid əməliyyatı
+√Verilənlər bazasındakı məlumatlar və İnternet kimi açıq şəbəkə üzərindən iki kompüter arasında tranzitdə olan məlumatların dəyişdirilməsi kimi davamlı olaraq məlumatları zərərli şəkildə dəyişdirmək
+•Qadağan edilmiş əməliyyatları izləmək imkanı olmayan bir sistemdə qeyri-qanuni əməliyyatlar həyata keçirmək məqsədi
+120 XML hansı məqsədlə Android Studio-da istifadə olunur?
+•Təhlükəsizlik
+•Veb səhifə yaratmaq üçün
+•XML istifadə olunmur
+•Dərhal məlumat transferi üçün
+√Tətbiq interfeysinin dizayn edilməsi üçün
+121 Cihazlar və bulud arasında verilənlərin sinxronizasiyası üçün istifadə olunan texnologiyalar hansılardır?
+•USB və Bluetooth
+•Yalnız USB
+√Wi-Fi və NFC
+•QR kodlar və şifrələr
+•SMS və faks
+122 Cihazlar arasında verilənlərin sinxronizasiyası zamanı yaranan risklər nələrdir?
+•Cihazların keyfiyyətinin artması
+•Əməliyyat sistemi yenilənməsi
+√Verilənlərin itirilməsi və gizliliyin pozulması
+•Şəbəkə təhlükələri
+•E-poçt spamı
+123 Verilənlərin sinxronizasiyası prosesi zamanı hansı məlumatlar paylanmaqda deyil?
+•E-poçt ünvanı və telefon nömrəsi
+•Bank kartının PIN kodu
+√Yerli yaddaşda saxlanılan verilənlər
+•Audio fayllar
+•İstifadəçi adı və şifrə
+124 Cihazlar arasında sinxronizasiya üçün hansı element əhəmiyyətli rol oynayır?
+•SIM kart
+√İnternet bağlantısı
+•Cihazın modeli
+•Əməliyyat sistemi
+•USB portları
+125 Sinxronizasiya nədir?
+•Mətbuat və radio reklamlarının yayımlanma tarixi
+√Cihazlar arasında verilənlərin eyniliyi
+•Təhlükəsiz proqram təminatının hazırlanması prosesinin təşkili
+•Şirkətin əməliyyatlarının tənzimlənməsi
+•Buludda yaddaşda saxlanılan verilənlər
+126 Lazer sensorları hansı məqsədlər üçün istifadə olunur?
+•Işığın intensivliyini ölçmək
+•Temperatur ölçülməsi
+√Hərəkət etməyi yoxlamaq
+•İnsanın kimliyini təsdiq etmək
+•Şəffaflığı yoxlamaq
+127 OCR texnologiyası hansı növ mətni digər məlumatla yoxlayır?
+•Elektrik siqnalı
+•İnfrasəs siqnalı
+√Optik siqnal
+•İşıq siqnalı
+•Radio siqnalı
+128 Optik zoom hansı xüsusiyyətə əsaslanır?
+•Temperaturu ölçmək
+•Rəngi dəyişdirmək
+√Şəkilləri böyütmək və kiçiltmək
+•Cihazı yavaşlatmaq
+•Cihazın ekranını söndürmək
+129 Proximity sensoru hansı məqsədlə istifadə olunur?
+•İşıq ölçülməsi
+√Cihazın ekranını söndürmək
+•Temperatur ölçülməsi
+•İnsanın kimliyini təsdiq etmək
+•Havanın təzyiqini ölçmək
+130 Biometrik sensorlar hansı məqsədlə istifadə olunur?
+•Fotoşəkil çəkmək
+•Havanın təzyiqini ölçmək
+•İşıq ölçülməsi
+•Temperatur ölçülməsi
+√İnsanın kimliyini təsdiq etmək
+131 Lidar texnologiyası nəyə əsaslanır?
+•Elektromaqnit radiasiyaya
+•Ultrason səs signalına
+√Lazer işıqına
+•Mikro-dalğa işığına
+•İnfrasəs signalına
+132 Qapalı bir sürət ölçən sensor hansıdır?
+•GPS sensor
+•Zolaq sensoru
+•Elektromaqnit sensor
+√Ultrason sensor
+•Radio sensoru
+133 Işığı ölçən sensor hansıdır?
+•Elektromaqnit sensor
+•Zolaq sensoru
+√Optik sensor
+•Radio sensoru
+•İnfrasəs sensor
+134 GPS sensoru hansı məqsədlə istifadə olunur?
+•Təzyiq ölçülməsi
+•Temperatur ölçülməsi
+√Mövqe müəyyənləşdirmə
+•Şəkil çəkmək
+•Yaxınlaşma qeyd etmə
+135 "Hər dəfə proqramçı öz tətbiqlərinə funksiyalar əlavə etdikdə, zəiflik riskini artırır" - bu fikir hansı prinsipdə nəzərə alınmışdır?
+•Təhlükəsiz şəkildə uğursuzluq prinsipi.
+√Hücum səthinin sahəsini minimuma endirilməsi prinsipi
+•Vəzifələrin bölünməsi prinsipi
+•Xidmətlərə etibar edilməməsi prinsipi
+•Təhlükəsizliyi sadələşdirmək prinsipi
+136 Aşağıdakılardan hansı tətbiq mərhələsinin addımlarında qeyd olunmuşdur?
+•Forma və alətlərin kodlarının daxil edilməsi
+•Proqram təminatı sisteminin layihələndirilməsi
+•Proqram təminatı sisteminin hazırlanacağı proqramlaşdırma dilinin və verilənlər bazasının seçilməsi
+•Formanı işlətməklə sınaqdan keçirmək
+√Çıxış məlumatlarının əldə edilməsi
+137 Aşağıdakılardan hansı test mərhələsinin addımlarında qeyd olunmuşdur?
+√Sınaq ediləcək formaların müəyyən edilməsi
+•Forma və alətlərin kodlarının daxil edilməsi
+•Layihənin paket proqramına çevrilməsi
+•Proqram təminatı sisteminin hazırlanacağı proqramlaşdırma dilinin və verilənlər bazasının seçilməsi
+•Proqram təminatı sisteminin layihələndirilməsi
+138 Proqram təminatının inkişaf prosesi mərhələlərinin ardıcıllığında ilk mərhələ aşağıdakılardan hansıdır?
+•Dizayn
+•Test
+•Hazırlıq
+•Tətbiq
+√Təhlil
+139 Deserializasiya nədir?
+•obyektin vəziyyətinin bayt axınına çevrilməsi mexanizmidir
+√Java obyektini yenidən yaratmaq üçün bayt axınının istifadə edildiyi əks prosesdir
+•obyektin vəziyyətinin bit axınına çevrilməsi mexanizmidir
+•obyektin vəziyyətinin bit axınına çevrilməməsi mexanizmidir
+•obyektin vəziyyətinin bayt axınına çevrilməməsi mexanizmidir
+140 Təhlükəsiz proqramlarin işlənib-hazırlanması və istifadə olunmasının prinsipləri neçə alt qrupdan ibarətdir?
+•2
+√5
+•3
+•4
+•6
+141 "Diqqət qurulan proqram təminatına və dizayn, kodlaşdırma və ya quraşdırma inteqrasiyasında hansı zəifliklərin və zəifliklərin təqdim olunacağına yönəldilir" bu fikir hansı təhdid modelləşdirilməsinə yanaşma üsulunu izah edir?
+•Sistem mərkəzli
+•Hücumçu mərkəzli
+•Passiv mərkəzli
+√Proqram mərkəzli
+•Aktiv mərkəzli
+142 "Qeyri-müəyyənliyə əsaslanan təhlükəsizliyə heç vaxt etibar edilməməsi lazım olduğunu bildirir" bu fikir hansı prinsipdə nəzərə alınmışdır?
+•Xidmətlərə etibar edilməməsi prinsipi
+•Təhlükəsiz şəkildə uğursuzluq prinsipi.
+√Qeyri-müəyyənlik səbəbindən təhlükəsizlikdən əmin olmamaq prinsipi
+•Hücum səthinin sahəsini minimuma endirilməsi prinsipi
+•Təhlükəsizliyi sadələşdirmək prinsipi
+143 "Tətbiqdə təhlükəsizlik problemi aşkar edilərsə, tərtibatçılar problemin əsas səbəbini müəyyən etməlidirlər" bu fikir hansı prinsipdə nəzərə alınmışdır?
+•Dərin Müdafiə Prinsipi
+•Xidmətlərə etibar edilməməsi prinsipi
+•Təhlükəsiz şəkildə uğursuzluq prinsipi.
+√Təhlükəsizlik problemlərinin düzgün şəkildə həll edilməsi prinsipi
+•Hücum səthinin sahəsini minimuma endirilməsi prinsipi
+144 "Tərtibatçılar tətbiqləri üçün təhlükəsizlik nəzarətlərini inkişaf etdirərkən çox mürəkkəb arxitekturalardan istifadə etməkdən çəkinməlidirlər" bu fikir hansı prinsipdə nəzərə alınmışdır?
+•Dərin Müdafiə Prinsipi
+•Təhlükəsiz şəkildə uğursuzluq prinsipi.
+√Təhlükəsizliyi sadələşdirmək prinsipi
+•Xidmətlərə etibar edilməməsi prinsipi
+•Hücum səthinin sahəsini minimuma endirilməsi prinsipi
+145 Aşağıdakı variantlardan hansında Avtorizasiya prosesi düzgün izah olunmuşdur?
+√İstifadəçinin şəxsiyyətinə uyğun olaraq giriş hüquqlarının təyin olunduğu və idarə olunduğu mərhələdir
+•Susmaya görə təhlükəsizlik rejiminin qoşulmasıdır
+•Proqram təminatının ilkin qəbulu (installyasiyası) və cari icrasının təhlükəsiz təşkilidir
+•Təhlükəsiz proqram təminatının hazırlanması prosesinin təşkilidir
+•İnformasiya mühitində dövlətin, fiziki və hüquqi şəxslərin qorunmasının vəziyyətidir
+146 Daxiletmənin yoxlanılması üsulları hansı testlərlə həyata keçirilir?
+•Avtorizasiya proseduru
+•İdentifikasiya proseduru
+√Ağ qutu və Qara qutu testi
+•Ağ qutu və Boz qutu testi
+•Autentifikasiya proseduru
+147 Ağ qutu sınağı ilə qara qutu sınağı arasındakı ən əsas fərq necə izah olunur?
+•Qara qutu sınağı aşağıdan yuxarı yanaşmadan istifadə edir
+•Ağ qutu sınağı müstəqil proqramçılar qrupu tərəfindən həyata keçirilir
+•Qara qutu sınağı biznes bölmələrini əhatə edir
+•Qara qutu sınağı biznes və maliyyə bölmələrini əhatə edir
+√Ağ qutu testi proqramın daxili məntiqi strukturlarını yoxlayır
+148 “Trusted Computing Group” un etibarlı hesablama konsepsiyasına aiddir?
+•Məxfilik və Bərpa Oluna Bilənlik
+•Məxfilik, Əlçatanlıq və Bərpa Oluna Bilənlik
+•Bütövlük, Əlçatanlıq və Bərpa Oluna Bilənlik
+•Məxfilik, Bütövlük
+√Məxfilik, Bütövlük, Əlçatanlıq və Bərpa Oluna Bilənlik
+149 “Trusted Computing Group” neçə etibarlı hesablama konsepsiyasından istifadə edir?
+•2
+•3
+•5
+•1
+√4
+150 Proqram təminarının təhlükəsizliyini qiymətləndirmək və nəzərdən keçirmək nə vaxt daha düzgün addım hesab olunur?
+•Test mərhələsində
+•Təhlil mərhələsində
+•Hazırlıq mərhələsində
+√Tətbiqin inkişafının bütün mərhələlərində
+•zayn mərhələsində
